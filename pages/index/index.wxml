@@ -1,0 +1,7 @@
+<!--index.wxml-->
+<view class="container">
+  <button bindtap="dian">
+  点我
+  </button>
+
+</view>

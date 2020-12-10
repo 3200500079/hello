@@ -1,0 +1,15 @@
+<!--pages/dianhua/dianhua.wxml-->
+<view class="phone-numbers-title">常用电话</view>
+<view>
+
+<view class="phone-numbers-main">
+<block wx:for="{{phone_numbers}}">
+  <view class="single-number">
+    <text>{{item.organization}}</text>
+    <text data-phone-num="{{item.num}}" bindtap="call">{{item.num}}</text>
+  </view>
+</block>
+</view>
+</view>
+
+

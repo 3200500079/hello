@@ -1,0 +1,15 @@
+<!--pages/my/my.wxml-->
+
+<button>
+我的</button>
+
+<view class="main">
+  <view class="my-items my-info">
+      <text class="iconfont icon-fangzi"></text>
+      <navigator url="../rege_login/rege_login">
+        <text class="word">注册/登录</text>
+      </navigator>
+      <text class="iconfont icon-jiantou"></text>
+    </view>
+</view>
+
